@@ -1,0 +1,28 @@
+# Special Element
+
+## &lt;content&gt;
+
+The element serves as content distribution outlest in a composed component template. The element itself will be replaced.
+
+alias: `<slot>`
+
+### Code Example
+
+```html
+<we-element name="item">
+  <template>
+    <div>
+      <content></content>
+    </div>
+  </template>
+</we-element>
+
+<template>
+  <div>
+    <item>
+      <text>Content Text</text>
+    </item>
+  </div>
+</template>
+```
+

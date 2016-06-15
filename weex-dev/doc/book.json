@@ -1,0 +1,6 @@
+{
+"gitbook":"3.0.3",     
+"plugins": [
+        "theme-default"
+    ]
+}
